@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  
+}
+.calculator-outerDiv {
+  width: 340px;
+  height: 550px;
+  border: 1px solid black;
+  background-color: #383838;
+  margin-top: 7rem;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar .calculator {
+  margin-left: 10px;
+  color: #ffffff;
+  padding-top: 9px;
+}
+
+.nav-bar .menu-icon  {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+}
+.nav-bar .menu-icon li {
+  width: 47px;
+  border: 1px solid black;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding-top: 5px;
+}
+
+.nav-bar .menu-icon li:first-child:hover {
+  background-color: #606060;
+}
+
+.nav-bar .menu-icon li:nth-child(2):hover {
+  background-color: #606060;
+}
+
+.nav-bar .menu-icon li:last-child:hover {
+  background-color: #ff0000;
+}
+
+.answer-outer {
+  border: none;
+  width: 100%;
+  height: 28%;
+  color: #ffffff;
+  position: relative;
+}
+
+.answer-outer:hover {
+  border: 4px solid whitesmoke;
+}
+
+.answer-outer .answer {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  border: none;
+  background-color: inherit;
+  font-size: 55px;
+}
+
+#result {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 30px;
+}
+
+.number {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 4px 4px;
+  margin: 4px;
+}
+
+.number li {
+  border: 1px solid black;
+  width: 100%;
+  height: 67px;
+  list-style: none;
+  color: #ffffffd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number li:first-child {
+  background-color: #0b9c6b;
+}
+
+.number li:first-child:hover {
+  background-color: #dec0c0;
+}
+
+.number li:hover {
+  background-color: #872929;
+}
+
+.number li:last-child {
+  background-color: #6e6e91;
+  width: 200%;
+}
+
+.number li:last-child:hover {
+  background-color: #808080;
+
+}
+
+.number ul, li:nth-child(5), li:nth-child(6), li:nth-child(7), li:nth-child(9),
+ li:nth-child(10), li:nth-child(11), li:nth-child(13), li:nth-child(14),
+ li:nth-child(15), li:nth-child(18) {
+  background-color: #000000;
+}

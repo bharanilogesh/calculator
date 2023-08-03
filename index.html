@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <!-- favicon-->
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+
+    <!--fontawesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--normalise CSS-->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!--custom CSS-->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="calculator-outerDiv">
+      <nav class="nav-bar">
+        <h3 class="calculator">CALCULATOR</h3>
+        <ol class="menu-icon">
+          <li><i class="fa fa-window-minimize"></i></li>
+          <li id="closeBtn"><i class="material-icons">Close</i></li>
+        </ol>
+      </nav>
+      <div class="answer-outer">
+        <h4 id="result"></h4>
+        <h1 class="answer" id="output"></h1>
+        
+        
+      </div>
+      <ul class="number" id="text">
+        <li>CE</li>
+        <li>C</li>
+        <li>%</li>
+        <li>/</li>
+  
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>*</li>
+  
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>-</li>
+  
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>+</li>
+  
+        
+        <li>.</li>
+        <li>0</li>
+        <li>=</li>
+      </ul>
+    </div>
+
+
+    <!--custom JS-->
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
